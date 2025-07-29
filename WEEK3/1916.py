@@ -7,8 +7,8 @@ m = int(sys.stdin.readline())
 edge = [list(map(int, sys.stdin.readline().split())) for _ in range(m)]
 start, end = map(int, sys.stdin.readline().split())
 
-print(edge)
-print(start, end)
+# print(edge)
+# print(start, end)
 
 adj = defaultdict(list)
 
